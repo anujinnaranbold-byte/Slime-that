@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://dtlq5k2hspopw"]
+
+[ext_resource type="Texture2D" uid="uid://danq3wjvnx2nx" path="res://eyvLTl.png" id="1_stcry"]
+[ext_resource type="Script" uid="uid://dcogi1ivd04sg" path="res://forest.gd" id="1_uq144"]
+[ext_resource type="Texture2D" uid="uid://8v3e07u2ycnf" path="res://Building1_light_shadow.png" id="2_uq144"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mvm06"]
+radius = 655.1557
+
+[node name="Forest" type="Node2D" unique_id=1767048553]
+script = ExtResource("1_uq144")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1991334230]
+position = Vector2(3465, 2472)
+scale = Vector2(10.632886, 10.347352)
+texture = ExtResource("1_stcry")
+
+[node name="VillageExit" type="Area2D" parent="." unique_id=833013156]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="VillageExit" unique_id=2116495783]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(532, 3020)
+shape = SubResource("CircleShape2D_mvm06")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="VillageExit" unique_id=1852941003]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(1690, 3020)
+shape = SubResource("CircleShape2D_mvm06")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="VillageExit" unique_id=2139105282]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(2838, 3068)
+shape = SubResource("CircleShape2D_mvm06")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="VillageExit" unique_id=786118081]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(3954, 2749)
+shape = SubResource("CircleShape2D_mvm06")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="VillageExit" unique_id=878077976]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(6435, 2722)
+shape = SubResource("CircleShape2D_mvm06")
+
+[node name="DungeonEntrance" type="Area2D" parent="." unique_id=26480280]
+
+[node name="Sprite2D" type="Sprite2D" parent="DungeonEntrance" unique_id=755767893]
+position = Vector2(5669, 983)
+scale = Vector2(11.794921, 9.878906)
+texture = ExtResource("2_uq144")
