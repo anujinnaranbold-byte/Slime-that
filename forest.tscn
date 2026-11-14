@@ -44,9 +44,7 @@ shape = SubResource("CircleShape2D_mvm06")
 
 [node name="DungeonEntrance" type="Area2D" parent="." unique_id=26480280]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="DungeonEntrance" unique_id=1057402881]
-
-[node name="Sprite2D" type="Sprite2D" parent="DungeonEntrance/CollisionShape2D" unique_id=755767893]
-position = Vector2(5717, 1068)
+[node name="Sprite2D" type="Sprite2D" parent="DungeonEntrance" unique_id=755767893]
+position = Vector2(5669, 983)
 scale = Vector2(11.794921, 9.878906)
 texture = ExtResource("2_uq144")
