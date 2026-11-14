@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dtlq5k2hspopw"]
+[gd_scene load_steps=0 format=3 uid="uid://dtlq5k2hspopw"]
 
 [ext_resource type="Texture2D" uid="uid://danq3wjvnx2nx" path="res://eyvLTl.png" id="1_stcry"]
 [ext_resource type="Script" uid="uid://dcogi1ivd04sg" path="res://forest.gd" id="1_uq144"]
