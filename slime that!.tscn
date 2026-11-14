@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://stpyf4deyroc"]
+[gd_scene format=4 uid="uid://stpyf4deyroc"]
 
 [ext_resource type="Texture2D" uid="uid://ceyspooqn5twd" path="res://pixelated village/1 Tiles/FieldsTile_38.png" id="1_1so6t"]
 [ext_resource type="Texture2D" uid="uid://4t5x5ya1xfxt" path="res://pixelated village/2 Objects/7 House/3.png" id="2_ywpvj"]
